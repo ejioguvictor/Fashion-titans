@@ -1,6 +1,8 @@
+import styles from "../index.module.scss"
+
 export default function Home() {
   return (
-    <div className="content">
+    <div className={styles.content}>
       <h1>Welcome...</h1>
       <p>Quality Clothing for titans</p>
       <img src="https://c.files.bbci.co.uk/FC31/production/_108216546_fashion-blogger-t-shirt.jpg" alt="site banner" />

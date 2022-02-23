@@ -1,4 +1,5 @@
 import { BrowserRouter, Link, Route, Routes, Navigate } from 'react-router-dom'
+import styles from "./index.module.scss"
 
 // pages
 import Home from './pages/Home'
@@ -7,11 +8,12 @@ import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
 import { useState } from 'react'
 
+
 function App() {
   const [cartIsEmpty] = useState(true)
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       <BrowserRouter>
         <nav>
           <h1>Fashion titans👗 👜 👠</h1>

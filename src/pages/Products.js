@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
+import styles from "../index.module.scss"
 
 export default function Products() {
   return (
-    <div className="content">
+    <div className={styles.content}>
       <h3>Hoodies</h3>
-      <div className="products">
+      <div className={styles.product}>
         {[0, 1, 2, 3].map(p => (
           <div key={p}>
             <Link to={`/products/${p}`}>
@@ -14,7 +15,7 @@ export default function Products() {
         ))}
       </div>
       <h3>Tees</h3>
-      <div className="products">
+      <div className={styles.product}>
         {[4, 5, 6, 7].map(p => (
           <div key={p}>
             <Link to={`/products/${p}`}>
@@ -24,7 +25,7 @@ export default function Products() {
         ))}
       </div>
       <h3>Sneakers</h3>
-      <div className="products">
+      <div className={styles.product}>
         {[8, 9, 10, 11].map(p => (
           <div key={p}>
             <Link to={`/products/${p}`}>

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styles from "../index.module.scss"
 
 export default function Offers() {
   const [items] = useState([
@@ -10,7 +11,7 @@ export default function Offers() {
   return (
     <div>
       <h3>Latest Offers</h3>
-      <div className="offers">
+      <div className={styles.offers}>
         {items.map(item => (
           <div key={item.title}>
             <img src="https://via.placeholder.com/350x200" alt="product" />
