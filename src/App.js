@@ -22,8 +22,8 @@ function App() {
         {/* for react-router 6, Routes replaced switch */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products/:id" element={<ProductDetails />} />
+          <Route path="/about/*" element={<About />} />
+          <Route path="/products/:id/*" element={<ProductDetails />} />
           <Route path="/products" element={<Products />} />
           <Route path="test" element={(
             <div>
