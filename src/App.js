@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <nav>
-          <h1>Fashion titan👗 👜 👠</h1>
+          <h1>Fashion titans👗 👜 👠</h1>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/products">Products</Link>

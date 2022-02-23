@@ -1,6 +1,6 @@
-# E-commerce v-1 demo
+# Fashion titans app 👗 👜 👠
 
-### Simple e-commerce app built with React.js, Javascript and HTML/CSS ...stil under development
+### Simple E-commerce V-1 demo app built with React.js, Javascript and HTML/CSS ...stil under development
 
 ![Screenshot](public/screenshot1.png)
 ![Screenshot](public/screenshot2.png)
